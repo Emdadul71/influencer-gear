@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.Header-top{
+    padding-top: 30px;
+    overflow: hidden;
+}
+.fa-cart-plus{
+    font-size: 20px;
+}
+.fa-arrow-right:before{
+    padding: 10px;
+}
+.influencer-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+}
+.right-side a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    font-size: 18px;
+    overflow: hidden;
+}
+.start-journey-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    background: url(influencer/images/Circle\ design.svg) no-repeat 760px top;
+    height: 500px;
+}
+.start-journey-area .left-side{
+    width: 45%;
+    overflow: hidden;
+}
+.start-journey-area .left-side a{
+    text-decoration: none;
+    background: #e02c6d;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 30px;
+}
+.start-journey-area .right-side{
+    width: 45%;
+}
+.start-journey-area .right-side img{
+    margin-left: 100px;
+    width: 70%;
+}
+#start{
+    font-size: 40px;
+}
+.brand-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.logo-area{
+    margin: 30px 0;
+}
+.b-line{
+    width: 80%;
+    border-top: 1px solid #dae1e9;
+    margin: auto;
+    margin-bottom: 35px;
+}
+.b-line2{
+    width: 80%;
+    border-top: 1px solid #dae1e9;
+    margin: auto;
+    margin-top: 35px;
+}
+.product-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+.product img {
+    width: 220px;
+    height: 180px;
+}
+.product{
+    box-shadow: 10px 10px 50px gainsboro;
+    padding: 9px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+#see-more{
+    text-align: right;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star-half-alt{
+    color: #fb8200;
+    font-size: 12px;
+}
+.filled{
+    color: #fb8200;
+}
+.product h3{
+    margin-bottom: 2px;
+}
+.price{
+    margin: 7px 0;
+}
+.rating{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.count{
+    margin-left: 7px;
+}
+.shifting{
+    margin: 0;
+    font-size: 12px;
+    color: #7b7b87;
+    font-weight: bold;
+}
+.product>h1 {
+    margin: 4px 0;
+}
+.popular{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+section{
+    overflow: hidden;
+}
+.black{
+    background: black;
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    height: 100px;
+    padding: 55px 0;
+}
+footer h2{
+    font-size: 18px;
+}
+footer p {
+    margin: 7px 0;
+    font-size: 14px;
+}
+.main-area{
+    padding: 80px 0;
+}
+.fab{
+    margin: 0 10px;
+}
+.social-icon{
+    width: 800px;
+    margin: auto;
+    font-size: 18px;
+}
+.featured-product{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 40px 0 50px 0;
+}
+.featured-img{
+    width: 50%;
+
+}
+.featured-description{
+    width: 50%;
+    padding-top: 20px;
+}
+.featured-description a{
+    text-decoration: none;
+    display: inline-block;
+    background: #e02c6d;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+#see-more{
+    margin-right: 217px;
+    margin-top: 40px;
+    display: block;
+    text-decoration: none;
+    color: #e02c6d;
+    font-weight: bold;
+}
+
+/*-----------------
+---Media Query-----
+-------------------*/
+@media only screen and (max-width:688px) {
+    section{
+        width: 100%;
+    }
+    .influencer-area{
+        flex-direction: column;
+    }
+    .product-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .start-journey-area{
+        flex-direction: column;
+    }
+    .start-journey-area .right-side{
+        display: block;
+    }
+    .black{
+        width: 100%;
+    }
+    .social-icon{
+        width: 100%;
+    }
+    .featured-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
